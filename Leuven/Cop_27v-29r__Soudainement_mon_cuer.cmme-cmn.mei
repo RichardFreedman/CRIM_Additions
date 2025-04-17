@@ -16,15 +16,15 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef>
+                    <scoreDef meter.count="4" meter.unit="2">
                         <staffGrp symbol="bracket">
-                            <staffDef n="1" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" label="Superius">
+                            <staffDef n="1" lines="5" clef.shape="G" clef.line="2" label="Superius">
                                 <label>Superius</label>
                             </staffDef>
-                            <staffDef n="2" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Tenor">
+                            <staffDef n="2" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Tenor">
                                 <label>Tenor</label>
                             </staffDef>
-                            <staffDef n="3" lines="5" meter.count="4" meter.unit="2" clef.shape="F" clef.line="4" label="Contra">
+                            <staffDef n="3" lines="5" clef.shape="F" clef.line="4" label="Contra">
                                 <label>Contra</label>
                             </staffDef>
                         </staffGrp>

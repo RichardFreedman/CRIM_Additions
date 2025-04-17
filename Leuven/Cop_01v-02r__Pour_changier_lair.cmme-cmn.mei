@@ -1,16 +1,58 @@
 <?xml version='1.0' encoding='utf-8'?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+basic" xml:id="m-1">
-    <meiHead>
-        <fileDesc>
+    <meiHead xml:id="m-2">
+        <fileDesc xml:id="m-3">
             <titleStmt>
-                <title>Pour changier lair</title>
-                <title type="subordinate">Kopenhagen, f. 1v-2r</title>
-                <composer>(Convert)</composer>
+                <title>Les desloyaulx</title>
+                <respStmt>
+                    <persName role="composer" auth="VIAF" auth.uri="https://viaf.org/en/viaf/22150988">Johannes Okeghem</persName>
+                    <persName role="editor">Ryan O'Sullivan</persName>
+                    <persName role="editor">Richard Freedman</persName>
+                </respStmt>
             </titleStmt>
             <pubStmt>
-                <date isodate="2024-11-13-16:09:48"/>
+                <publisher>The Leuven Chansonnier</publisher>
+                <distributor>Ryan O'Sullivan </distributor>
+                <distributor> Alamire Foundation</distributor>
+                <date isodate="2025-03-27T11:51:50.418086"/>
+                <availability>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License</availability>
             </pubStmt>
         </fileDesc>
+        <encodingDesc xml:id="m-5">
+            <appInfo xml:id="m-6">
+                <application xml:id="sibelius" isodate="2025-3-27T11:46:45Z" version="20240301">
+                    <name xml:id="m-8" type="operating-system">Mac OS X Mountain Lion</name>
+                </application>
+                <application xml:id="sibmei" type="plugin" version="4.1.0">
+                    <name xml:id="m-10">Sibelius to MEI 4 Exporter (4.1.0)</name>
+                </application>
+                <application version="2.0.0">
+                    <name>MEI Updater 2025</name>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <workList xml:id="m-11">
+            <work xml:id="m-12">
+                <title xml:id="m-13">Les desloyaulx</title>
+                <composer>
+                    <persName role="composer" auth="VIAF" auth.uri="https://viaf.org/en/viaf/22150988">Johannes Okeghem</persName>
+                </composer>
+            </work>
+        </workList>
+        <manifestationList xml:id="manifestationList-LC_09">
+            <manifestation>
+                <titleStmt>
+                    <title>The Leuven Chansonnier</title>
+                </titleStmt>
+                <physLoc>
+                    <repository>
+                        <corpName>Alamire Foundation</corpName>
+                        <settlement>Leuven, Belgium</settlement>
+                    </repository>
+                    <identifier type="shelfmark">MS 1</identifier>
+                </physLoc>
+            </manifestation>
+        </manifestationList>
     </meiHead>
     <music>
         <body>

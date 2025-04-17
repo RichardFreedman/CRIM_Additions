@@ -1,1694 +1,1476 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+basic">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title>Tant fuz gentement resiouy</title>
-            <title type="subordinate">Nivelle, f. 56v-58r</title>
-            <composer>Ockeghem (?)</composer>
-         </titleStmt>
-         <pubStmt>
-            <date isodate="2024-11-13-16:17:01" />
-         </pubStmt>
-      </fileDesc>
-   </meiHead>
-   <music>
-      <body>
-         <mdiv>
-            <score>
-               <scoreDef>
-                  <staffGrp symbol="bracket">
-                     <staffDef n="1" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2">
-                        <label>Superius</label>
-                     </staffDef>
-                     <staffDef n="2" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below">
-                        <label>Tenor</label>
-                     </staffDef>
-                     <staffDef n="3" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below">
-                        <label>Contra</label>
-                     </staffDef>
-                  </staffGrp>
-               </scoreDef>
-               <section type="MensuralMusic">
-                  <measure n="1">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nn1in8h" dur="1" oct="4" pname="d">
-                              <verse n="1">
-                                 <syl wordpos="t">Tant</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1yqwm1j" dur="1" oct="4" pname="e">
-                              <verse n="1">
-                                 <syl wordpos="t">fuz</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="d" />
-                           <note xml:id="n1pmu6wp" dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="a" />
-                           <note xml:id="nk0dgd9" dur="1" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                     <dir type="mscore-staff-text" place="above" staff="1" tstamp="0">C</dir>
-                     <tie startid="#n1yqwm1j" endid="#n16ska6p" />
-                     <dir type="mscore-staff-text" place="above" staff="2" tstamp="0">C</dir>
-                     <tie startid="#n1pmu6wp" endid="#n3omuy3" />
-                     <dir type="mscore-staff-text" place="above" staff="3" tstamp="0">C</dir>
-                     <tie startid="#nk0dgd9" endid="#n19r9yuw" />
-                  </measure>
-                  <measure n="2">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n16ska6p" dur="1" oct="4" pname="e" />
-                           <note xml:id="nlsqb6b" dur="1" oct="4" pname="e">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">gen</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n3omuy3" dur="1" oct="3" pname="a" />
-                           <note dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n19r9yuw" dur="1" oct="4" pname="c" />
-                           <note dur="1" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="3">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n15q5p0o" dots="1" dur="1" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl con="d" wordpos="m">te</syl>
-                              </verse>
-                           </note>
-                           <note dur="2" oct="4" pname="g" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="a" />
-                           <note xml:id="nft91t0" dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="c" />
-                           <note xml:id="neod8sy" dur="1" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                     <tie startid="#nft91t0" endid="#n1hrbk2q" />
-                     <tie startid="#neod8sy" endid="#nchb1nn" />
-                  </measure>
-                  <measure n="4">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1caexfg" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl wordpos="t">ment</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n3cd42f" dur="1" oct="4" pname="g">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">res</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n1hrbk2q" dur="1" oct="3" pname="a" />
-                           <note dur="1" oct="3" pname="b" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="nchb1nn" dur="1" oct="4" pname="c" />
-                           <note dur="1" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="5">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n8ze36c" dur="2" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl con="d" wordpos="m">iou</syl>
-                              </verse>
-                           </note>
-                           <note dur="2" oct="4" pname="d" />
-                           <note dur="1" oct="4" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="6">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n151g07k" dur="breve" oct="4" pname="d">
-                              <verse n="1">
-                                 <syl wordpos="t">y</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n1t2to25" dur="breve" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1t2to25" endid="#n19bgf3e" />
-                  </measure>
-                  <measure n="7">
-                     <staff n="1">
-                        <layer n="1">
-                           <rest dur="1" />
-                           <note xml:id="nc8cnq6" dur="1" oct="4" pname="d">
-                              <verse n="1">
-                                 <syl wordpos="t">et</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n19bgf3e" dur="breve" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n5pdduv" dur="1" oct="3" pname="g" />
-                           <note dur="1" oct="3" pname="f" />
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#n5pdduv" endid="#n1c6agwi" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="8">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="npijk5l" dots="1" dur="1" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl wordpos="t">tant</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1bmgrg7" dur="2" oct="4" pname="g">
-                              <verse n="1">
-                                 <syl wordpos="t">fuz</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <rest dur="1" />
-                           <note dur="1" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n12fgsrj" dur="breve" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n12fgsrj" endid="#n1c6agwi" />
-                  </measure>
-                  <measure n="9">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n16j1quk" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl wordpos="t">par</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1i4anp1" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">a</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="f" />
-                           <note dur="1" oct="4" pname="f" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n1c6agwi" dur="breve" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="10">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n12p1hzb" dots="1" dur="1" oct="4" pname="g">
-                              <verse n="1">
-                                 <syl wordpos="t">mours</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nkhkoqh" dur="2" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">jou</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="e" />
-                           <note dur="1" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="nhxm9yu" dur="breve" oct="3" pname="g" />
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#nhxm9yu" endid="#nsn62s7" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="11">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nvifc3u" dur="breve" oct="4" pname="e">
-                              <verse n="1">
-                                 <syl wordpos="t">y</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="nsn62s7" dur="breve" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="12">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1kn0gfl" dots="1" dur="1" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl wordpos="t">me</syl>
-                              </verse>
-                           </note>
-                           <note dur="4" oct="4" pname="e" />
-                           <note dur="4" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <rest dur="1" />
-                           <note dur="1" oct="3" pname="b">
-                              <accid accid="f" func="edit" />
-                           </note>
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="13">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nzgg3a3" dur="1" oct="4" pname="c">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">te</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nnfj7iw" dur="1" oct="4" pname="c">
-                              <verse n="1">
-                                 <syl wordpos="t">nir</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="e" />
-                           <note dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n1e6ulrj" dur="1" oct="3" pname="a" />
-                           <note xml:id="n1k5b82w" dur="1" oct="3" pname="f" />
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#n1e6ulrj" endid="#n117yrba" func="ligature" lform="solid" />
-                     <tie startid="#n1k5b82w" endid="#n117yrba" />
-                  </measure>
-                  <measure n="14">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n8m8rxz" dur="1" oct="4" pname="d">
-                              <verse n="1">
-                                 <syl wordpos="t">au</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1ssn9oc" dur="1" oct="4" pname="e">
-                              <verse n="1">
-                                 <syl wordpos="t">vueil</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="b">
-                              <accid accid="f" func="edit" />
-                           </note>
-                           <note dur="1" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n117yrba" dur="2" oct="3" pname="f" />
-                           <note dur="2" oct="3" pname="g" />
-                           <note dur="1" oct="3" pname="e" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="15">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nxkqe11" dur="1" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">de</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1fwje89" dur="1" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl wordpos="t">vant</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="4" pname="d" />
-                           <note dur="2" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1fwje89" endid="#nbfzico" />
-                  </measure>
-                  <measure n="16">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nbfzico" dur="1" oct="4" pname="f" />
-                           <note xml:id="n1lj8sf6" dur="1" oct="4" pname="e">
-                              <verse n="1">
-                                 <syl wordpos="t">tous</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="a" />
-                           <note dur="1" oct="3" pname="g" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <rest dur="1" />
-                           <note dur="1" oct="3" pname="c" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1lj8sf6" endid="#n4x3ym4" />
-                  </measure>
-                  <measure n="17">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n4x3ym4" dur="2" oct="4" pname="e" />
-                           <note dur="4" oct="4" pname="d" />
-                           <note dur="4" oct="4" pname="c" />
-                           <note dur="1" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="f" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="18">
-                     <staff n="1">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n1ga0ewg" dur="breve" oct="3" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="breve" oct="2" pname="a" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1ga0ewg" endid="#n5fjotg" />
-                  </measure>
-                  <measure n="19">
-                     <staff n="1">
-                        <layer n="1">
-                           <rest dur="breve" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n5fjotg" dur="breve" oct="3" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="3" pname="c" />
-                           <note dur="2" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="20">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nx8ipsp" dur="breve" oct="4" pname="g">
-                              <verse n="1">
-                                 <syl wordpos="t">De</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <rest dur="breve" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="3" pname="e" />
-                           <note dur="2" oct="3" pname="f" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="21">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nzfpd26" dur="1" oct="4" pname="g">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">vos</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n34i3ro" dur="1" oct="4" pname="g">
-                              <verse n="1">
-                                 <syl wordpos="t">tre</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="3" pname="g" />
-                           <note dur="2" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="22">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n15xgxkb" dur="1" oct="4" pname="g">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">gen</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1k9wr70" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl wordpos="t">til</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="e" />
-                           <note dur="1" oct="3" pname="f" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n15g5mcb" dur="1" oct="3" pname="b">
-                              <accid accid="n" func="edit" />
-                           </note>
-                           <note xml:id="nzl2ejg" dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#n15g5mcb" endid="#nzl2ejg" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="23">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1runxvz" dur="1" oct="4" pname="b">
-                              <verse n="1">
-                                 <syl wordpos="t">cuer</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1gel5kv" dur="1" oct="5" pname="c">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">tres</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="g" />
-                           <note dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="g" />
-                           <note xml:id="nsoi9g5" dur="1" oct="3" pname="f" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1gel5kv" endid="#n1xfrul6" />
-                     <tie startid="#nsoi9g5" endid="#n1qi7cyn" />
-                  </measure>
-                  <measure n="24">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1xfrul6" dur="2" oct="5" pname="c" />
-                           <note dur="2" oct="4" pname="a" />
-                           <note xml:id="nkpym5f" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl wordpos="t">doulx</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n1qi7cyn" dur="1" oct="3" pname="f" />
-                           <note dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <tie startid="#nkpym5f" endid="#n1dr57jv" />
-                  </measure>
-                  <measure n="25">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1dr57jv" dur="1" oct="4" pname="a" />
-                           <note dur="1" oct="4" pname="g">
-                              <accid accid="s" func="edit" />
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="b" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="e" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="26">
-                     <staff n="1">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="3" pname="f" />
-                           <note dur="4" oct="3" pname="g" />
-                           <note dur="4" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="27">
-                     <staff n="1">
-                        <layer n="1">
-                           <rest dur="1" />
-                           <note xml:id="n1dmyq8z" dur="1" oct="4" pname="d">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">Quonc</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n1babqxy" dur="1" oct="3" pname="g" />
-                           <note dur="1" oct="3" pname="f" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="b">
-                              <accid accid="f" func="edit" />
-                           </note>
-                           <note dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#n1babqxy" endid="#n1lrcvqs" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="28">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1n3405m" dur="1" oct="4" pname="c">
-                              <verse n="1">
-                                 <syl wordpos="t">ques</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n9ex0jd" dur="1" oct="4" pname="c">
-                              <verse n="1">
-                                 <syl wordpos="t">puis</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n1lrcvqs" dur="breve" oct="3" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <rest dur="1" />
-                           <note xml:id="n1u07ehm" dur="1" oct="3" pname="g" />
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#n1u07ehm" endid="#n1u5w8w3" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="29">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nrepwn7" dur="breve" oct="4" pname="d">
-                              <verse n="1">
-                                 <syl wordpos="t">sur</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <rest dur="1" />
-                           <note dur="1" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n1u5w8w3" dur="1" oct="3" pname="f" />
-                           <note xml:id="n1s34ivr" dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1s34ivr" endid="#nvv0365" />
-                  </measure>
-                  <measure n="30">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n110u1jm" dur="breve" oct="4" pname="e">
-                              <verse n="1">
-                                 <syl wordpos="t">moy</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="c" />
-                           <note dur="1" oct="3" pname="c" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="nvv0365" dur="2" oct="3" pname="a" />
-                           <note dur="2" oct="3" pname="g" />
-                           <note dur="1" oct="3" pname="e" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="31">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n9njs8x" dots="1" dur="1" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl wordpos="t">ne</syl>
-                              </verse>
-                           </note>
-                           <note dur="4" oct="4" pname="e" />
-                           <note dur="4" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="nb9walg" dur="1" oct="3" pname="a" />
-                           <note xml:id="n15dpf2y" dur="1" oct="3" pname="b">
-                              <accid accid="f" func="edit" />
-                           </note>
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#nb9walg" endid="#n15dpf2y" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="32">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1vz21rc" dur="1" oct="4" pname="c">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">jou</syl>
-                              </verse>
-                           </note>
-                           <note dur="2" oct="4" pname="f" />
-                           <note dur="2" oct="4" pname="g" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="e" />
-                           <note dur="1" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="g" />
-                           <note xml:id="n1siqj9d" dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#n1siqj9d" endid="#nu31ijm" func="coloration" />
-                     <tie startid="#n1siqj9d" endid="#n19z0qv6" />
-                  </measure>
-                  <measure n="33">
-                     <staff n="1">
-                        <layer n="1">
-                           <note dur="2" oct="4" pname="a" />
-                           <note dur="1" oct="4" pname="g" />
-                           <note dur="2" oct="4" pname="f" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="2" oct="3" pname="f" />
-                           <note dur="2" oct="3" pname="g" />
-                           <note dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n19z0qv6" dur="2" oct="3" pname="a" />
-                           <note xml:id="nu31ijm" dur="2" oct="3" pname="b" />
-                           <note dur="1" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="34">
-                     <staff n="1">
-                        <layer n="1">
-                           <note dur="2" oct="4" pname="e" />
-                           <note dur="2" oct="4" pname="d" />
-                           <note xml:id="nbquvbl" dur="1" oct="4" pname="c">
-                              <verse n="1">
-                                 <syl wordpos="t">y</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="2" oct="3" pname="g" />
-                           <note dur="2" oct="3" pname="f" />
-                           <note dur="1" oct="3" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="2" oct="3" pname="b" />
-                           <note dur="2" oct="3" pname="a" />
-                           <note dur="1" oct="3" pname="g" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="35">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1qx0a5e" dur="breve" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl wordpos="t">Le</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <rest dur="1" />
-                           <note dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n1xip30n" dur="1" oct="3" pname="a" />
-                           <note xml:id="nvnmsqj" dur="1" oct="3" pname="f" />
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#n1xip30n" endid="#nvnmsqj" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="36">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1p61asy" dots="1" dur="1" oct="4" pname="d">
-                              <verse n="1">
-                                 <syl wordpos="t">mien</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1f4q7s6" dur="2" oct="4" pname="e">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">tres</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="b">
-                              <accid accid="f" func="edit" />
-                           </note>
-                           <note dur="1" oct="3" pname="g" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="3" pname="g" />
-                           <note dur="4" oct="3" pname="f" />
-                           <note dur="4" oct="3" pname="e" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="37">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1pdnl3t" dur="1" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl con="d" wordpos="m">dou</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1efmxf4" dur="1" oct="4" pname="e">
-                              <accid accid="f" func="edit" />
-                              <verse n="1">
-                                 <syl con="d" wordpos="m">lu</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="f" />
-                           <note dur="1" oct="3" pname="g" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="d" />
-                           <note xml:id="n1cc8e1q" dur="1" oct="3" pname="c" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1efmxf4" endid="#n1drjq3b" />
-                     <tie startid="#n1cc8e1q" endid="#ngc43uc" />
-                  </measure>
-                  <measure n="38">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1drjq3b" dur="1" oct="4" pname="e">
-                              <accid accid.ges="f" />
-                           </note>
-                           <note xml:id="n2k7bct" dur="1" oct="4" pname="d">
-                              <verse n="1">
-                                 <syl wordpos="t">reux</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="b">
-                              <accid accid="f" func="edit" />
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="ngc43uc" dur="1" oct="3" pname="c" />
-                           <note dur="1" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n2k7bct" endid="#nv0qnss" />
-                  </measure>
-                  <measure n="39">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nv0qnss" dur="2" oct="4" pname="d" />
-                           <note dur="2" oct="3" pname="b">
-                              <accid accid="f" func="edit" />
-                           </note>
-                           <note xml:id="n1kobu15" dur="1" oct="4" pname="c">
-                              <accid accid="n" func="edit" />
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">cour</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="3" pname="f" />
-                           <note dur="2" oct="3" pname="g" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="40">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n14x2mrw" dur="breve" oct="4" pname="d">
-                              <verse n="1">
-                                 <syl wordpos="t">roux</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="nd61n09" dur="breve" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n1j0n97g" dur="breve" oct="3" pname="b">
-                              <accid accid="f" func="edit" />
-                           </note>
-                        </layer>
-                     </staff>
-                     <tie startid="#n14x2mrw" endid="#nkz0e0l" />
-                     <tie startid="#nd61n09" endid="#nobl00j" />
-                     <bracketSpan startid="#n1j0n97g" endid="#n69rcud" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="41">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nkz0e0l" dur="breve" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="nobl00j" dur="breve" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n69rcud" dur="breve" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="42">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1h5fey1" dots="1" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl wordpos="t">Si</syl>
-                              </verse>
-                           </note>
-                           <note dur="2" oct="4" pname="b" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <dir type="mscore-staff-text" place="above" staff="1" tstamp="0">C|</dir>
-                     <dir type="mscore-staff-text" place="above" staff="2" tstamp="0">C|</dir>
-                     <dir type="mscore-staff-text" place="above" staff="3" tstamp="0">C|</dir>
-                  </measure>
-                  <measure n="43">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1pay8pq" dur="1" oct="5" pname="c">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">haul</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1wiwvpc" dur="1" oct="5" pname="c">
-                              <verse n="1">
-                                 <syl con="d" wordpos="m">te</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="e" />
-                           <note dur="1" oct="4" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="a" />
-                           <note dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="44">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="njt09g1" dur="1" oct="5" pname="d">
-                              <verse n="1">
-                                 <syl wordpos="t">ment</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n102wuxb" dur="1" oct="5" pname="d">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">a</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="f" />
-                           <note dur="1" oct="4" pname="f" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="d" />
-                           <note dur="1" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="45">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1pw7idn" dots="1" dur="1" oct="5" pname="d">
-                              <verse n="1">
-                                 <syl wordpos="t">vez</syl>
-                              </verse>
-                           </note>
-                           <note dur="2" oct="5" pname="c" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="4" pname="f" />
-                           <note dur="4" oct="4" pname="e" />
-                           <note dur="4" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="3" pname="f" />
-                           <note dur="2" oct="3" pname="g" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="46">
-                     <staff n="1">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="a" />
-                           <note xml:id="nnm6cyd" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">par</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="c" />
-                           <note dur="1" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="nmaopxk" dur="1" oct="3" pname="a" />
-                           <note dur="1" oct="3" pname="b" />
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#nmaopxk" endid="#n1nf6idg" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="47">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1cx9ldf" dots="1" dur="1" oct="4" pname="g">
-                              <verse n="1">
-                                 <syl wordpos="t">ty</syl>
-                              </verse>
-                           </note>
-                           <note dur="4" oct="4" pname="a" />
-                           <note dur="4" oct="4" pname="b" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="e" />
-                           <note dur="1" oct="4" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n1nf6idg" dur="breve" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="48">
-                     <staff n="1">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="5" pname="c" />
-                           <note dur="4" oct="4" pname="b" />
-                           <note dur="4" oct="4" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="e" />
-                           <note dur="1" oct="4" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="3" pname="a" />
-                           <note dur="2" oct="3" pname="b" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="49">
-                     <staff n="1">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="g" />
-                           <rest dur="1" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="e" />
-                           <note dur="1" oct="4" pname="f" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n2ud95l" dur="1" oct="4" pname="c" />
-                           <note xml:id="nvqmmgk" dur="1" oct="3" pname="f" />
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#n2ud95l" endid="#nvqmmgk" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="50">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n6i50lp" dur="1" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">Ce</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="ndl88hc" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl wordpos="t">luy</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <rest dur="1" />
-                           <note xml:id="n1l4tmb9" dur="1" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1l4tmb9" endid="#n1d13ei0" />
-                  </measure>
-                  <measure n="51">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n2673fa" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl wordpos="t">qui</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1tz6vd9" dur="1" oct="4" pname="b">
-                              <verse n="1">
-                                 <syl wordpos="t">de</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="f" />
-                           <note xml:id="n1ldqcyv" dur="1" oct="4" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n1d13ei0" dur="1" oct="3" pname="d" />
-                           <note dur="1" oct="3" pname="g" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1ldqcyv" endid="#n14vwbps" />
-                  </measure>
-                  <measure n="52">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nxijf3x" dur="1" oct="5" pname="c">
-                              <verse n="1">
-                                 <syl wordpos="t">vous</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1osl7fc" dur="2" oct="5" pname="d">
-                              <verse n="1">
-                                 <syl wordpos="t">na</syl>
-                              </verse>
-                           </note>
-                           <note dur="2" oct="5" pname="c" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n14vwbps" dur="1" oct="4" pname="e" />
-                           <note xml:id="n1mpgsqx" dur="1" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="nf6d2b5" dur="1" oct="3" pname="a" />
-                           <note xml:id="n1p3jgl8" dur="1" oct="3" pname="b" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1mpgsqx" endid="#n4mgykw" />
-                     <bracketSpan startid="#nf6d2b5" endid="#n1p3jgl8" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="53">
-                     <staff n="1">
-                        <layer n="1">
-                           <note dur="2" oct="4" pname="b" />
-                           <note dur="2" oct="4" pname="a" />
-                           <note xml:id="n13ey7gv" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">par</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n4mgykw" dur="1" oct="4" pname="d" />
-                           <note dur="1" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n18q9ujf" dur="1" oct="3" pname="g" />
-                           <note dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n13ey7gv" endid="#nh6iec4" />
-                     <bracketSpan startid="#n18q9ujf" endid="#n4dvn29" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="54">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nh6iec4" dur="1" oct="4" pname="a" />
-                           <note dur="1" oct="4" pname="g" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="b">
-                              <accid accid="f" func="edit" />
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="55">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n12ygfxh" dur="breve" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl wordpos="t">ty</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="ndcwvct" dur="breve" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n4dvn29" dur="breve" oct="4" pname="e" />
-                        </layer>
-                     </staff>
-                     <tie startid="#ndcwvct" endid="#npywxtb" />
-                  </measure>
-                  <measure n="56">
-                     <staff n="1">
-                        <layer n="1">
-                           <rest dur="1" />
-                           <note xml:id="n1g59ll9" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl wordpos="t">Son</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="npywxtb" dur="breve" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="c" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="57">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n1jmawhb" dots="1" dur="1" oct="5" pname="c">
-                              <verse n="1">
-                                 <syl wordpos="t">cuer</syl>
-                              </verse>
-                           </note>
-                           <note dur="4" oct="4" pname="b" />
-                           <note dur="4" oct="4" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <rest dur="1" />
-                           <note dur="1" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="f" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="58">
-                     <staff n="1">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="g" />
-                           <note xml:id="n1p99avf" dur="1" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl wordpos="t">de</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="b" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n131prur" dur="1" oct="3" pname="e" />
-                           <note xml:id="npequky" dur="1" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <bracketSpan startid="#n131prur" endid="#npequky" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="59">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n4is7pq" dots="1" dur="1" oct="4" pname="e">
-                              <verse n="1">
-                                 <syl wordpos="t">vous</syl>
-                              </verse>
-                           </note>
-                           <note dur="2" oct="4" pname="f" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="4" pname="c" />
-                           <note dur="2" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dots="1" dur="1" oct="3" pname="a" />
-                           <note dur="4" oct="3" pname="g" />
-                           <note dur="4" oct="3" pname="f" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="60">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n13wjivp" dur="1" oct="4" pname="g">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">a</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1ru54fi" dur="1" oct="4" pname="a">
-                              <verse n="1">
-                                 <syl wordpos="t">mer</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="1" oct="4" pname="e" />
-                           <note xml:id="namhz9p" dur="1" oct="4" pname="f" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="1" oct="3" pname="e" />
-                           <note xml:id="n9jbl5" dur="1" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1ru54fi" endid="#nct7v7r" />
-                     <bracketSpan startid="#namhz9p" endid="#n2emoy9" func="ligature" lform="solid" />
-                     <tie startid="#namhz9p" endid="#nv1fyrj" />
-                     <tie startid="#n9jbl5" endid="#n103i9tp" />
-                  </measure>
-                  <measure n="61">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nct7v7r" dur="1" oct="4" pname="a" />
-                           <note xml:id="nf9kyjv" dur="1" oct="4" pname="g">
-                              <verse n="1">
-                                 <syl con="d" wordpos="i">tou</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="nv1fyrj" dur="1" oct="4" pname="f" />
-                           <note xml:id="ndmar5m" dur="1" oct="4" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n103i9tp" dur="1" oct="3" pname="d" />
-                           <note xml:id="n1f6nrrd" dur="1" oct="3" pname="e" />
-                        </layer>
-                     </staff>
-                     <tie startid="#ndmar5m" endid="#n2emoy9" />
-                     <bracketSpan startid="#n1f6nrrd" endid="#n71wzc4" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="62">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="nsbr4bl" dur="breve" oct="4" pname="f">
-                              <verse n="1">
-                                 <syl wordpos="t">jours</syl>
-                              </verse>
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n2emoy9" dur="1" oct="4" pname="e" />
-                           <note xml:id="nie501" dur="1" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n71wzc4" dots="1" dur="1" oct="3" pname="f" />
-                           <note dur="2" oct="3" pname="g" />
-                        </layer>
-                     </staff>
-                     <tie startid="#nie501" endid="#njy3q8d" />
-                  </measure>
-                  <measure n="63">
-                     <staff n="1">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="e" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="njy3q8d" dur="1" oct="4" pname="d" />
-                           <note dur="1" oct="4" pname="c">
-                              <accid accid="s" func="edit" />
-                           </note>
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note dur="breve" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure n="64">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="ng7e74z" dur="breve" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note dur="breve" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n1vwu5k6" dur="breve" oct="3" pname="b">
-                              <accid accid="f" func="edit" />
-                           </note>
-                        </layer>
-                     </staff>
-                     <tie startid="#ng7e74z" endid="#n5w9h5n" />
-                     <bracketSpan startid="#n1vwu5k6" endid="#n1szp3qy" func="ligature" lform="solid" />
-                  </measure>
-                  <measure n="65">
-                     <staff n="1">
-                        <layer n="1">
-                           <note xml:id="n5w9h5n" dur="breve" oct="4" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n1r488c8" dur="breve" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="nxhmu1c" dur="breve" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                     <tie startid="#n1r488c8" endid="#n1tq4w9w" />
-                     <tie startid="#nxhmu1c" endid="#n1szp3qy" />
-                  </measure>
-                  <measure right="end" n="66">
-                     <staff n="1">
-                        <layer n="1">
-                           <mRest />
-                        </layer>
-                     </staff>
-                     <staff n="2">
-                        <layer n="1">
-                           <note xml:id="n1tq4w9w" dur="breve" oct="3" pname="d" />
-                        </layer>
-                     </staff>
-                     <staff n="3">
-                        <layer n="1">
-                           <note xml:id="n1szp3qy" dur="breve" oct="3" pname="a" />
-                        </layer>
-                     </staff>
-                  </measure>
-               </section>
-            </score>
-         </mdiv>
-      </body>
-   </music>
+<?xml version='1.0' encoding='utf-8'?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+basic" xml:id="m-1">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Tant fuz gentement resiouy</title>
+                <title type="subordinate">Nivelle, f. 56v-58r</title>
+                <composer>Ockeghem (?)</composer>
+            </titleStmt>
+            <pubStmt>
+                <date isodate="2024-11-13-16:17:01"/>
+            </pubStmt>
+        </fileDesc>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv>
+                <score>
+                    <scoreDef>
+                        <staffGrp symbol="bracket">
+                            <staffDef n="1" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" label="Superius">
+                                <label>Superius</label>
+                            </staffDef>
+                            <staffDef n="2" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Tenor">
+                                <label>Tenor</label>
+                            </staffDef>
+                            <staffDef n="3" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Contra">
+                                <label>Contra</label>
+                            </staffDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section type="MensuralMusic">
+                        <measure n="1">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nn1in8h" dur="1" oct="4" pname="d">
+                              </note>
+                                    <note xml:id="n1yqwm1j" dur="1" oct="4" pname="e">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="d"/>
+                                    <note xml:id="n1pmu6wp" dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="a"/>
+                                    <note xml:id="nk0dgd9" dur="1" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                            <dir type="mscore-staff-text" place="above" staff="1" tstamp="0">C</dir>
+                            <tie startid="#n1yqwm1j" endid="#n16ska6p"/>
+                            <dir type="mscore-staff-text" place="above" staff="2" tstamp="0">C</dir>
+                            <tie startid="#n1pmu6wp" endid="#n3omuy3"/>
+                            <dir type="mscore-staff-text" place="above" staff="3" tstamp="0">C</dir>
+                            <tie startid="#nk0dgd9" endid="#n19r9yuw"/>
+                        </measure>
+                        <measure n="2">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n16ska6p" dur="1" oct="4" pname="e"/>
+                                    <note xml:id="nlsqb6b" dur="1" oct="4" pname="e">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n3omuy3" dur="1" oct="3" pname="a"/>
+                                    <note dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n19r9yuw" dur="1" oct="4" pname="c"/>
+                                    <note dur="1" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="3">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n15q5p0o" dots="1" dur="1" oct="4" pname="f">
+                              </note>
+                                    <note dur="2" oct="4" pname="g"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="a"/>
+                                    <note xml:id="nft91t0" dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="c"/>
+                                    <note xml:id="neod8sy" dur="1" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#nft91t0" endid="#n1hrbk2q"/>
+                            <tie startid="#neod8sy" endid="#nchb1nn"/>
+                        </measure>
+                        <measure n="4">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1caexfg" dur="1" oct="4" pname="a">
+                              </note>
+                                    <note xml:id="n3cd42f" dur="1" oct="4" pname="g">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n1hrbk2q" dur="1" oct="3" pname="a"/>
+                                    <note dur="1" oct="3" pname="b"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="nchb1nn" dur="1" oct="4" pname="c"/>
+                                    <note dur="1" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="5">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n8ze36c" dur="2" oct="4" pname="f">
+                              </note>
+                                    <note dur="2" oct="4" pname="d"/>
+                                    <note dur="1" oct="4" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="6">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n151g07k" dur="breve" oct="4" pname="d">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n1t2to25" dur="breve" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1t2to25" endid="#n19bgf3e"/>
+                        </measure>
+                        <measure n="7">
+                            <staff n="1">
+                                <layer n="1">
+                                    <rest dur="1"/>
+                                    <note xml:id="nc8cnq6" dur="1" oct="4" pname="d">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n19bgf3e" dur="breve" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n5pdduv" dur="1" oct="3" pname="g"/>
+                                    <note dur="1" oct="3" pname="f"/>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#n5pdduv" endid="#n1c6agwi" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="8">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="npijk5l" dots="1" dur="1" oct="4" pname="f">
+                              </note>
+                                    <note xml:id="n1bmgrg7" dur="2" oct="4" pname="g">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <rest dur="1"/>
+                                    <note dur="1" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n12fgsrj" dur="breve" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n12fgsrj" endid="#n1c6agwi"/>
+                        </measure>
+                        <measure n="9">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n16j1quk" dur="1" oct="4" pname="a">
+                              </note>
+                                    <note xml:id="n1i4anp1" dur="1" oct="4" pname="a">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="f"/>
+                                    <note dur="1" oct="4" pname="f"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n1c6agwi" dur="breve" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="10">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n12p1hzb" dots="1" dur="1" oct="4" pname="g">
+                              </note>
+                                    <note xml:id="nkhkoqh" dur="2" oct="4" pname="f">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="e"/>
+                                    <note dur="1" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="nhxm9yu" dur="breve" oct="3" pname="g"/>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#nhxm9yu" endid="#nsn62s7" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="11">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nvifc3u" dur="breve" oct="4" pname="e">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="nsn62s7" dur="breve" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="12">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1kn0gfl" dots="1" dur="1" oct="4" pname="f">
+                              </note>
+                                    <note dur="4" oct="4" pname="e"/>
+                                    <note dur="4" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <rest dur="1"/>
+                                    <note dur="1" oct="3" pname="b">
+                                        <accid accid="f" func="edit"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="13">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nzgg3a3" dur="1" oct="4" pname="c">
+                              </note>
+                                    <note xml:id="nnfj7iw" dur="1" oct="4" pname="c">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="e"/>
+                                    <note dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n1e6ulrj" dur="1" oct="3" pname="a"/>
+                                    <note xml:id="n1k5b82w" dur="1" oct="3" pname="f"/>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#n1e6ulrj" endid="#n117yrba" func="ligature" lform="solid"/>
+                            <tie startid="#n1k5b82w" endid="#n117yrba"/>
+                        </measure>
+                        <measure n="14">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n8m8rxz" dur="1" oct="4" pname="d">
+                              </note>
+                                    <note xml:id="n1ssn9oc" dur="1" oct="4" pname="e">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="b">
+                                        <accid accid="f" func="edit"/>
+                                    </note>
+                                    <note dur="1" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n117yrba" dur="2" oct="3" pname="f"/>
+                                    <note dur="2" oct="3" pname="g"/>
+                                    <note dur="1" oct="3" pname="e"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="15">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nxkqe11" dur="1" oct="4" pname="f">
+                              </note>
+                                    <note xml:id="n1fwje89" dur="1" oct="4" pname="f">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="4" pname="d"/>
+                                    <note dur="2" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1fwje89" endid="#nbfzico"/>
+                        </measure>
+                        <measure n="16">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nbfzico" dur="1" oct="4" pname="f"/>
+                                    <note xml:id="n1lj8sf6" dur="1" oct="4" pname="e">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="a"/>
+                                    <note dur="1" oct="3" pname="g"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <rest dur="1"/>
+                                    <note dur="1" oct="3" pname="c"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1lj8sf6" endid="#n4x3ym4"/>
+                        </measure>
+                        <measure n="17">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n4x3ym4" dur="2" oct="4" pname="e"/>
+                                    <note dur="4" oct="4" pname="d"/>
+                                    <note dur="4" oct="4" pname="c"/>
+                                    <note dur="1" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="f"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="18">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n1ga0ewg" dur="breve" oct="3" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="breve" oct="2" pname="a"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1ga0ewg" endid="#n5fjotg"/>
+                        </measure>
+                        <measure n="19">
+                            <staff n="1">
+                                <layer n="1">
+                                    <rest dur="breve"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n5fjotg" dur="breve" oct="3" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="3" pname="c"/>
+                                    <note dur="2" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="20">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nx8ipsp" dur="breve" oct="4" pname="g">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <rest dur="breve"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="3" pname="e"/>
+                                    <note dur="2" oct="3" pname="f"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="21">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nzfpd26" dur="1" oct="4" pname="g">
+                              </note>
+                                    <note xml:id="n34i3ro" dur="1" oct="4" pname="g">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="3" pname="g"/>
+                                    <note dur="2" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="22">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n15xgxkb" dur="1" oct="4" pname="g">
+                              </note>
+                                    <note xml:id="n1k9wr70" dur="1" oct="4" pname="a">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="e"/>
+                                    <note dur="1" oct="3" pname="f"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n15g5mcb" dur="1" oct="3" pname="b">
+                                        <accid accid="n" func="edit"/>
+                                    </note>
+                                    <note xml:id="nzl2ejg" dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#n15g5mcb" endid="#nzl2ejg" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="23">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1runxvz" dur="1" oct="4" pname="b">
+                              </note>
+                                    <note xml:id="n1gel5kv" dur="1" oct="5" pname="c">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="g"/>
+                                    <note dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="g"/>
+                                    <note xml:id="nsoi9g5" dur="1" oct="3" pname="f"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1gel5kv" endid="#n1xfrul6"/>
+                            <tie startid="#nsoi9g5" endid="#n1qi7cyn"/>
+                        </measure>
+                        <measure n="24">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1xfrul6" dur="2" oct="5" pname="c"/>
+                                    <note dur="2" oct="4" pname="a"/>
+                                    <note xml:id="nkpym5f" dur="1" oct="4" pname="a">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n1qi7cyn" dur="1" oct="3" pname="f"/>
+                                    <note dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#nkpym5f" endid="#n1dr57jv"/>
+                        </measure>
+                        <measure n="25">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1dr57jv" dur="1" oct="4" pname="a"/>
+                                    <note dur="1" oct="4" pname="g">
+                                        <accid accid="s" func="edit"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="b"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="e"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="26">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="3" pname="f"/>
+                                    <note dur="4" oct="3" pname="g"/>
+                                    <note dur="4" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="27">
+                            <staff n="1">
+                                <layer n="1">
+                                    <rest dur="1"/>
+                                    <note xml:id="n1dmyq8z" dur="1" oct="4" pname="d">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n1babqxy" dur="1" oct="3" pname="g"/>
+                                    <note dur="1" oct="3" pname="f"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="b">
+                                        <accid accid="f" func="edit"/>
+                                    </note>
+                                    <note dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#n1babqxy" endid="#n1lrcvqs" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="28">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1n3405m" dur="1" oct="4" pname="c">
+                              </note>
+                                    <note xml:id="n9ex0jd" dur="1" oct="4" pname="c">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n1lrcvqs" dur="breve" oct="3" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <rest dur="1"/>
+                                    <note xml:id="n1u07ehm" dur="1" oct="3" pname="g"/>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#n1u07ehm" endid="#n1u5w8w3" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="29">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nrepwn7" dur="breve" oct="4" pname="d">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <rest dur="1"/>
+                                    <note dur="1" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n1u5w8w3" dur="1" oct="3" pname="f"/>
+                                    <note xml:id="n1s34ivr" dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1s34ivr" endid="#nvv0365"/>
+                        </measure>
+                        <measure n="30">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n110u1jm" dur="breve" oct="4" pname="e">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="c"/>
+                                    <note dur="1" oct="3" pname="c"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="nvv0365" dur="2" oct="3" pname="a"/>
+                                    <note dur="2" oct="3" pname="g"/>
+                                    <note dur="1" oct="3" pname="e"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="31">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n9njs8x" dots="1" dur="1" oct="4" pname="f">
+                              </note>
+                                    <note dur="4" oct="4" pname="e"/>
+                                    <note dur="4" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="nb9walg" dur="1" oct="3" pname="a"/>
+                                    <note xml:id="n15dpf2y" dur="1" oct="3" pname="b">
+                                        <accid accid="f" func="edit"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#nb9walg" endid="#n15dpf2y" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="32">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1vz21rc" dur="1" oct="4" pname="c">
+                              </note>
+                                    <note dur="2" oct="4" pname="f"/>
+                                    <note dur="2" oct="4" pname="g"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="e"/>
+                                    <note dur="1" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="g"/>
+                                    <note xml:id="n1siqj9d" dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#n1siqj9d" endid="#nu31ijm" func="coloration"/>
+                            <tie startid="#n1siqj9d" endid="#n19z0qv6"/>
+                        </measure>
+                        <measure n="33">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note dur="2" oct="4" pname="a"/>
+                                    <note dur="1" oct="4" pname="g"/>
+                                    <note dur="2" oct="4" pname="f"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="2" oct="3" pname="f"/>
+                                    <note dur="2" oct="3" pname="g"/>
+                                    <note dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n19z0qv6" dur="2" oct="3" pname="a"/>
+                                    <note xml:id="nu31ijm" dur="2" oct="3" pname="b"/>
+                                    <note dur="1" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="34">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note dur="2" oct="4" pname="e"/>
+                                    <note dur="2" oct="4" pname="d"/>
+                                    <note xml:id="nbquvbl" dur="1" oct="4" pname="c">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="2" oct="3" pname="g"/>
+                                    <note dur="2" oct="3" pname="f"/>
+                                    <note dur="1" oct="3" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="2" oct="3" pname="b"/>
+                                    <note dur="2" oct="3" pname="a"/>
+                                    <note dur="1" oct="3" pname="g"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="35">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1qx0a5e" dur="breve" oct="4" pname="f">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <rest dur="1"/>
+                                    <note dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n1xip30n" dur="1" oct="3" pname="a"/>
+                                    <note xml:id="nvnmsqj" dur="1" oct="3" pname="f"/>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#n1xip30n" endid="#nvnmsqj" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="36">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1p61asy" dots="1" dur="1" oct="4" pname="d">
+                              </note>
+                                    <note xml:id="n1f4q7s6" dur="2" oct="4" pname="e">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="b">
+                                        <accid accid="f" func="edit"/>
+                                    </note>
+                                    <note dur="1" oct="3" pname="g"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="3" pname="g"/>
+                                    <note dur="4" oct="3" pname="f"/>
+                                    <note dur="4" oct="3" pname="e"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="37">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1pdnl3t" dur="1" oct="4" pname="f">
+                              </note>
+                                    <note xml:id="n1efmxf4" dur="1" oct="4" pname="e">
+                                        <accid accid="f" func="edit"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="f"/>
+                                    <note dur="1" oct="3" pname="g"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="d"/>
+                                    <note xml:id="n1cc8e1q" dur="1" oct="3" pname="c"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1efmxf4" endid="#n1drjq3b"/>
+                            <tie startid="#n1cc8e1q" endid="#ngc43uc"/>
+                        </measure>
+                        <measure n="38">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1drjq3b" dur="1" oct="4" pname="e">
+                                        <accid accid.ges="f"/>
+                                    </note>
+                                    <note xml:id="n2k7bct" dur="1" oct="4" pname="d">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="b">
+                                        <accid accid="f" func="edit"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="ngc43uc" dur="1" oct="3" pname="c"/>
+                                    <note dur="1" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n2k7bct" endid="#nv0qnss"/>
+                        </measure>
+                        <measure n="39">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nv0qnss" dur="2" oct="4" pname="d"/>
+                                    <note dur="2" oct="3" pname="b">
+                                        <accid accid="f" func="edit"/>
+                                    </note>
+                                    <note xml:id="n1kobu15" dur="1" oct="4" pname="c">
+                                        <accid accid="n" func="edit"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="3" pname="f"/>
+                                    <note dur="2" oct="3" pname="g"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="40">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n14x2mrw" dur="breve" oct="4" pname="d">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="nd61n09" dur="breve" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n1j0n97g" dur="breve" oct="3" pname="b">
+                                        <accid accid="f" func="edit"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <tie startid="#n14x2mrw" endid="#nkz0e0l"/>
+                            <tie startid="#nd61n09" endid="#nobl00j"/>
+                            <bracketSpan startid="#n1j0n97g" endid="#n69rcud" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="41">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nkz0e0l" dur="breve" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="nobl00j" dur="breve" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n69rcud" dur="breve" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="42">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1h5fey1" dots="1" dur="1" oct="4" pname="a">
+                              </note>
+                                    <note dur="2" oct="4" pname="b"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <dir type="mscore-staff-text" place="above" staff="1" tstamp="0">C|</dir>
+                            <dir type="mscore-staff-text" place="above" staff="2" tstamp="0">C|</dir>
+                            <dir type="mscore-staff-text" place="above" staff="3" tstamp="0">C|</dir>
+                        </measure>
+                        <measure n="43">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1pay8pq" dur="1" oct="5" pname="c">
+                              </note>
+                                    <note xml:id="n1wiwvpc" dur="1" oct="5" pname="c">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="e"/>
+                                    <note dur="1" oct="4" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="a"/>
+                                    <note dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="44">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="njt09g1" dur="1" oct="5" pname="d">
+                              </note>
+                                    <note xml:id="n102wuxb" dur="1" oct="5" pname="d">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="f"/>
+                                    <note dur="1" oct="4" pname="f"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="d"/>
+                                    <note dur="1" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="45">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1pw7idn" dots="1" dur="1" oct="5" pname="d">
+                              </note>
+                                    <note dur="2" oct="5" pname="c"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="4" pname="f"/>
+                                    <note dur="4" oct="4" pname="e"/>
+                                    <note dur="4" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="3" pname="f"/>
+                                    <note dur="2" oct="3" pname="g"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="46">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="a"/>
+                                    <note xml:id="nnm6cyd" dur="1" oct="4" pname="a">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="c"/>
+                                    <note dur="1" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="nmaopxk" dur="1" oct="3" pname="a"/>
+                                    <note dur="1" oct="3" pname="b"/>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#nmaopxk" endid="#n1nf6idg" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="47">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1cx9ldf" dots="1" dur="1" oct="4" pname="g">
+                              </note>
+                                    <note dur="4" oct="4" pname="a"/>
+                                    <note dur="4" oct="4" pname="b"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="e"/>
+                                    <note dur="1" oct="4" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n1nf6idg" dur="breve" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="48">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="5" pname="c"/>
+                                    <note dur="4" oct="4" pname="b"/>
+                                    <note dur="4" oct="4" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="e"/>
+                                    <note dur="1" oct="4" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="3" pname="a"/>
+                                    <note dur="2" oct="3" pname="b"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="49">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="g"/>
+                                    <rest dur="1"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="e"/>
+                                    <note dur="1" oct="4" pname="f"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n2ud95l" dur="1" oct="4" pname="c"/>
+                                    <note xml:id="nvqmmgk" dur="1" oct="3" pname="f"/>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#n2ud95l" endid="#nvqmmgk" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="50">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n6i50lp" dur="1" oct="4" pname="f">
+                              </note>
+                                    <note xml:id="ndl88hc" dur="1" oct="4" pname="a">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <rest dur="1"/>
+                                    <note xml:id="n1l4tmb9" dur="1" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1l4tmb9" endid="#n1d13ei0"/>
+                        </measure>
+                        <measure n="51">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n2673fa" dur="1" oct="4" pname="a">
+                              </note>
+                                    <note xml:id="n1tz6vd9" dur="1" oct="4" pname="b">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="f"/>
+                                    <note xml:id="n1ldqcyv" dur="1" oct="4" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n1d13ei0" dur="1" oct="3" pname="d"/>
+                                    <note dur="1" oct="3" pname="g"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1ldqcyv" endid="#n14vwbps"/>
+                        </measure>
+                        <measure n="52">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nxijf3x" dur="1" oct="5" pname="c">
+                              </note>
+                                    <note xml:id="n1osl7fc" dur="2" oct="5" pname="d">
+                              </note>
+                                    <note dur="2" oct="5" pname="c"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n14vwbps" dur="1" oct="4" pname="e"/>
+                                    <note xml:id="n1mpgsqx" dur="1" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="nf6d2b5" dur="1" oct="3" pname="a"/>
+                                    <note xml:id="n1p3jgl8" dur="1" oct="3" pname="b"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1mpgsqx" endid="#n4mgykw"/>
+                            <bracketSpan startid="#nf6d2b5" endid="#n1p3jgl8" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="53">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note dur="2" oct="4" pname="b"/>
+                                    <note dur="2" oct="4" pname="a"/>
+                                    <note xml:id="n13ey7gv" dur="1" oct="4" pname="a">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n4mgykw" dur="1" oct="4" pname="d"/>
+                                    <note dur="1" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n18q9ujf" dur="1" oct="3" pname="g"/>
+                                    <note dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n13ey7gv" endid="#nh6iec4"/>
+                            <bracketSpan startid="#n18q9ujf" endid="#n4dvn29" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="54">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nh6iec4" dur="1" oct="4" pname="a"/>
+                                    <note dur="1" oct="4" pname="g"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="b">
+                                        <accid accid="f" func="edit"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="55">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n12ygfxh" dur="breve" oct="4" pname="a">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="ndcwvct" dur="breve" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n4dvn29" dur="breve" oct="4" pname="e"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#ndcwvct" endid="#npywxtb"/>
+                        </measure>
+                        <measure n="56">
+                            <staff n="1">
+                                <layer n="1">
+                                    <rest dur="1"/>
+                                    <note xml:id="n1g59ll9" dur="1" oct="4" pname="a">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="npywxtb" dur="breve" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="c"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="57">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n1jmawhb" dots="1" dur="1" oct="5" pname="c">
+                              </note>
+                                    <note dur="4" oct="4" pname="b"/>
+                                    <note dur="4" oct="4" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <rest dur="1"/>
+                                    <note dur="1" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="f"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="58">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="g"/>
+                                    <note xml:id="n1p99avf" dur="1" oct="4" pname="f">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="b"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n131prur" dur="1" oct="3" pname="e"/>
+                                    <note xml:id="npequky" dur="1" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <bracketSpan startid="#n131prur" endid="#npequky" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="59">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n4is7pq" dots="1" dur="1" oct="4" pname="e">
+                              </note>
+                                    <note dur="2" oct="4" pname="f"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="4" pname="c"/>
+                                    <note dur="2" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dots="1" dur="1" oct="3" pname="a"/>
+                                    <note dur="4" oct="3" pname="g"/>
+                                    <note dur="4" oct="3" pname="f"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="60">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n13wjivp" dur="1" oct="4" pname="g">
+                              </note>
+                                    <note xml:id="n1ru54fi" dur="1" oct="4" pname="a">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" oct="4" pname="e"/>
+                                    <note xml:id="namhz9p" dur="1" oct="4" pname="f"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="1" oct="3" pname="e"/>
+                                    <note xml:id="n9jbl5" dur="1" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1ru54fi" endid="#nct7v7r"/>
+                            <bracketSpan startid="#namhz9p" endid="#n2emoy9" func="ligature" lform="solid"/>
+                            <tie startid="#namhz9p" endid="#nv1fyrj"/>
+                            <tie startid="#n9jbl5" endid="#n103i9tp"/>
+                        </measure>
+                        <measure n="61">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nct7v7r" dur="1" oct="4" pname="a"/>
+                                    <note xml:id="nf9kyjv" dur="1" oct="4" pname="g">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="nv1fyrj" dur="1" oct="4" pname="f"/>
+                                    <note xml:id="ndmar5m" dur="1" oct="4" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n103i9tp" dur="1" oct="3" pname="d"/>
+                                    <note xml:id="n1f6nrrd" dur="1" oct="3" pname="e"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#ndmar5m" endid="#n2emoy9"/>
+                            <bracketSpan startid="#n1f6nrrd" endid="#n71wzc4" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="62">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="nsbr4bl" dur="breve" oct="4" pname="f">
+                              </note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n2emoy9" dur="1" oct="4" pname="e"/>
+                                    <note xml:id="nie501" dur="1" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n71wzc4" dots="1" dur="1" oct="3" pname="f"/>
+                                    <note dur="2" oct="3" pname="g"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#nie501" endid="#njy3q8d"/>
+                        </measure>
+                        <measure n="63">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="e"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="njy3q8d" dur="1" oct="4" pname="d"/>
+                                    <note dur="1" oct="4" pname="c">
+                                        <accid accid="s" func="edit"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note dur="breve" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="64">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="ng7e74z" dur="breve" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="breve" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n1vwu5k6" dur="breve" oct="3" pname="b">
+                                        <accid accid="f" func="edit"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                            <tie startid="#ng7e74z" endid="#n5w9h5n"/>
+                            <bracketSpan startid="#n1vwu5k6" endid="#n1szp3qy" func="ligature" lform="solid"/>
+                        </measure>
+                        <measure n="65">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note xml:id="n5w9h5n" dur="breve" oct="4" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n1r488c8" dur="breve" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="nxhmu1c" dur="breve" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                            <tie startid="#n1r488c8" endid="#n1tq4w9w"/>
+                            <tie startid="#nxhmu1c" endid="#n1szp3qy"/>
+                        </measure>
+                        <measure right="end" n="66">
+                            <staff n="1">
+                                <layer n="1">
+                                    <mRest/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note xml:id="n1tq4w9w" dur="breve" oct="3" pname="d"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note xml:id="n1szp3qy" dur="breve" oct="3" pname="a"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
 </mei>

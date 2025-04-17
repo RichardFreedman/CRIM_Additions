@@ -58,17 +58,25 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef>
-                        <staffGrp symbol="bracket">
-                            <staffDef n="1" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" label="Superius">
-                                <label>Superius</label>
-                            </staffDef>
-                            <staffDef n="2" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Tenor">
-                                <label>Tenor</label>
-                            </staffDef>
-                            <staffDef n="3" lines="5" meter.count="4" meter.unit="2" clef.shape="F" clef.line="4" label="Contra">
-                                <label>Contra</label>
-                            </staffDef>
+                    <scoreDef xml:id="m-26" lyric.name="Plantin MT Std" meter.count="4" meter.unit="2" music.name="Opus Std" page.botmar="12.7mm" page.height="297mm" page.leftmar="12.7mm" page.rightmar="12.7mm" page.topmar="12.7mm" page.width="210mm" ppq="256" spacing.staff="11" spacing.system="18.5" text.name="Plantin MT Std" vu.height="0.6125mm">
+                        <staffGrp xml:id="m-27">
+                            <staffGrp xml:id="m-43" n="1" symbol="bracket">
+                                <staffDef xml:id="m-28" clef.line="2" clef.shape="G" key.mode="major" key.sig="0" lines="5" n="1" label="Cantus">
+                                    <label xml:id="m-29">Cantus</label>
+                                    <labelAbbr xml:id="m-30">Cant.</labelAbbr>
+                                    <instrDef xml:id="m-32" midi.channel="1" midi.pan="46" midi.volume="100"/>
+                                </staffDef>
+                                <staffDef xml:id="m-33" clef.dis="8" clef.dis.place="below" clef.line="2" clef.shape="G" key.mode="major" key.sig="0" lines="5" n="2" trans.diat="-7" trans.semi="-12" label="Tenor">
+                                    <label xml:id="m-34">Tenor</label>
+                                    <labelAbbr xml:id="m-35">T.</labelAbbr>
+                                    <instrDef xml:id="m-37" midi.channel="1" midi.pan="46" midi.volume="100"/>
+                                </staffDef>
+                                <staffDef xml:id="m-38" clef.line="4" clef.shape="F" key.mode="major" key.sig="0" lines="5" n="3" label="Baritone">
+                                    <label xml:id="m-39">Baritone</label>
+                                    <labelAbbr xml:id="m-40">Bar.</labelAbbr>
+                                    <instrDef xml:id="m-42" midi.channel="1" midi.pan="101" midi.volume="100"/>
+                                </staffDef>
+                            </staffGrp>
                         </staffGrp>
                     </scoreDef>
                     <section >

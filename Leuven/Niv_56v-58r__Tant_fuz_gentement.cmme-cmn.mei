@@ -16,15 +16,15 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef>
+                    <scoreDef meter.count="4" meter.unit="2">
                         <staffGrp symbol="bracket">
-                            <staffDef n="1" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" label="Superius">
+                            <staffDef n="1" lines="5" clef.shape="G" clef.line="2" label="Superius">
                                 <label>Superius</label>
                             </staffDef>
-                            <staffDef n="2" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Tenor">
+                            <staffDef n="2" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Tenor">
                                 <label>Tenor</label>
                             </staffDef>
-                            <staffDef n="3" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Contra">
+                            <staffDef n="3" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Contra">
                                 <label>Contra</label>
                             </staffDef>
                         </staffGrp>
@@ -51,11 +51,8 @@
                                     <note xml:id="nk0dgd9" dur="1" oct="4" pname="c"/>
                                 </layer>
                             </staff>
-                            <dir type="mscore-staff-text" place="above" staff="1" tstamp="0">C</dir>
                             <tie startid="#n1yqwm1j" endid="#n16ska6p"/>
-                            <dir type="mscore-staff-text" place="above" staff="2" tstamp="0">C</dir>
                             <tie startid="#n1pmu6wp" endid="#n3omuy3"/>
-                            <dir type="mscore-staff-text" place="above" staff="3" tstamp="0">C</dir>
                             <tie startid="#nk0dgd9" endid="#n19r9yuw"/>
                         </measure>
                         <measure n="2">
@@ -182,7 +179,6 @@
                                     <note dur="1" oct="3" pname="f"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n5pdduv" endid="#n1c6agwi" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="8">
                             <staff n="1">
@@ -247,7 +243,6 @@
                                     <note xml:id="nhxm9yu" dur="breve" oct="3" pname="g"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nhxm9yu" endid="#nsn62s7" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="11">
                             <staff n="1">
@@ -311,7 +306,6 @@
                                     <note xml:id="n1k5b82w" dur="1" oct="3" pname="f"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1e6ulrj" endid="#n117yrba" func="ligature" lform="solid"/>
                             <tie startid="#n1k5b82w" endid="#n117yrba"/>
                         </measure>
                         <measure n="14">
@@ -502,7 +496,6 @@
                                     <note xml:id="nzl2ejg" dur="1" oct="3" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n15g5mcb" endid="#nzl2ejg" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="23">
                             <staff n="1">
@@ -611,7 +604,6 @@
                                     <note dur="1" oct="3" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1babqxy" endid="#n1lrcvqs" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="28">
                             <staff n="1">
@@ -633,7 +625,6 @@
                                     <note xml:id="n1u07ehm" dur="1" oct="3" pname="g"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1u07ehm" endid="#n1u5w8w3" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="29">
                             <staff n="1">
@@ -699,7 +690,6 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nb9walg" endid="#n15dpf2y" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="32">
                             <staff n="1">
@@ -722,7 +712,6 @@
                                     <note xml:id="n1siqj9d" dur="1" oct="3" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1siqj9d" endid="#nu31ijm" func="coloration"/>
                             <tie startid="#n1siqj9d" endid="#n19z0qv6"/>
                         </measure>
                         <measure n="33">
@@ -791,7 +780,6 @@
                                     <note xml:id="nvnmsqj" dur="1" oct="3" pname="f"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1xip30n" endid="#nvnmsqj" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="36">
                             <staff n="1">
@@ -913,7 +901,6 @@
                             </staff>
                             <tie startid="#n14x2mrw" endid="#nkz0e0l"/>
                             <tie startid="#nd61n09" endid="#nobl00j"/>
-                            <bracketSpan startid="#n1j0n97g" endid="#n69rcud" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="41">
                             <staff n="1">
@@ -950,9 +937,6 @@
                                     <note dur="breve" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <dir type="mscore-staff-text" place="above" staff="1" tstamp="0">C|</dir>
-                            <dir type="mscore-staff-text" place="above" staff="2" tstamp="0">C|</dir>
-                            <dir type="mscore-staff-text" place="above" staff="3" tstamp="0">C|</dir>
                         </measure>
                         <measure n="43">
                             <staff n="1">
@@ -1040,7 +1024,6 @@
                                     <note dur="1" oct="3" pname="b"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nmaopxk" endid="#n1nf6idg" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="47">
                             <staff n="1">
@@ -1103,7 +1086,6 @@
                                     <note xml:id="nvqmmgk" dur="1" oct="3" pname="f"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n2ud95l" endid="#nvqmmgk" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="50">
                             <staff n="1">
@@ -1173,7 +1155,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n1mpgsqx" endid="#n4mgykw"/>
-                            <bracketSpan startid="#nf6d2b5" endid="#n1p3jgl8" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="53">
                             <staff n="1">
@@ -1197,7 +1178,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n13ey7gv" endid="#nh6iec4"/>
-                            <bracketSpan startid="#n18q9ujf" endid="#n4dvn29" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="54">
                             <staff n="1">
@@ -1297,7 +1277,6 @@
                                     <note xml:id="npequky" dur="1" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n131prur" endid="#npequky" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="59">
                             <staff n="1">
@@ -1343,7 +1322,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n1ru54fi" endid="#nct7v7r"/>
-                            <bracketSpan startid="#namhz9p" endid="#n2emoy9" func="ligature" lform="solid"/>
                             <tie startid="#namhz9p" endid="#nv1fyrj"/>
                             <tie startid="#n9jbl5" endid="#n103i9tp"/>
                         </measure>
@@ -1368,7 +1346,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#ndmar5m" endid="#n2emoy9"/>
-                            <bracketSpan startid="#n1f6nrrd" endid="#n71wzc4" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="62">
                             <staff n="1">
@@ -1430,7 +1407,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#ng7e74z" endid="#n5w9h5n"/>
-                            <bracketSpan startid="#n1vwu5k6" endid="#n1szp3qy" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="65">
                             <staff n="1">

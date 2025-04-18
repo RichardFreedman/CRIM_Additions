@@ -15,15 +15,15 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef>
+                    <scoreDef meter.count="4" meter.unit="2">
                         <staffGrp symbol="bracket">
-                            <staffDef n="1" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" label="Superius">
+                            <staffDef n="1" lines="5" clef.shape="G" clef.line="2" label="Superius">
                                 <label>Superius</label>
                             </staffDef>
-                            <staffDef n="2" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Tenor">
+                            <staffDef n="2" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Tenor">
                                 <label>Tenor</label>
                             </staffDef>
-                            <staffDef n="3" lines="5" meter.count="4" meter.unit="2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Contra">
+                            <staffDef n="3" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Contra">
                                 <label>Contra</label>
                             </staffDef>
                         </staffGrp>
@@ -46,11 +46,8 @@
                                     <note xml:id="n1d3d6qh" dur="breve" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <dir type="mscore-staff-text" place="above" staff="1" tstamp="0">C|</dir>
                             <tie startid="#n1gmwyti" endid="#n127iq4f"/>
-                            <dir type="mscore-staff-text" place="above" staff="2" tstamp="0">C|</dir>
                             <tie startid="#n6ghd9j" endid="#nq6tcfx"/>
-                            <dir type="mscore-staff-text" place="above" staff="3" tstamp="0">C|</dir>
                             <tie startid="#n1d3d6qh" endid="#n14q7k2o"/>
                         </measure>
                         <measure n="2">
@@ -92,9 +89,6 @@
                                     <note xml:id="n4jon2f" dur="1" oct="3" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#ncdf5nj" endid="#n1coxwey" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n1fv9wi8" endid="#n1ii6emr" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n75sjdx" endid="#n4jon2f" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="4">
                             <staff n="1">
@@ -138,7 +132,6 @@
                                     <note dur="1" oct="3" pname="e"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1ta14yw" endid="#nzw5a69" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="6">
                             <staff n="1">
@@ -162,7 +155,6 @@
                                     <note xml:id="n1mc0hbf" dur="1" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nne6x6o" endid="#n1mc0hbf" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="7">
                             <staff n="1">
@@ -390,8 +382,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n192nz73" endid="#nzwpkb9"/>
-                            <bracketSpan startid="#n1ae3wlt" endid="#n10usqs5" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n1m1zh1m" endid="#ncehq8w" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="18">
                             <staff n="1">
@@ -432,9 +422,7 @@
                                     <note xml:id="n1gn2men" dur="1" oct="3" pname="c"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n26xxjm" endid="#nl816yf" func="ligature" lform="solid"/>
                             <tie startid="#ne925io" endid="#nl816yf"/>
-                            <bracketSpan startid="#n82upq5" endid="#n15yaw02" func="ligature" lform="solid"/>
                             <tie startid="#n1gn2men" endid="#n15yaw02"/>
                         </measure>
                         <measure n="20">
@@ -459,7 +447,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n1ex8jdr" endid="#nrjrtmi"/>
-                            <bracketSpan startid="#nec8xyu" endid="#n1p87jyk" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="21">
                             <staff n="1">
@@ -596,7 +583,6 @@
                                     <note xml:id="nqai3t2" dur="2" oct="3" pname="g"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n15cc9tg" endid="#n11i3izt" func="ligature" lform="solid"/>
                             <tie startid="#nqai3t2" endid="#n11i3izt"/>
                         </measure>
                         <measure n="28">
@@ -903,8 +889,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#nmd5ypt" endid="#n1jznmcn"/>
-                            <bracketSpan startid="#n1oivh09" endid="#n1uwshwz" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n1ew5hnh" endid="#n1q4gcdk" func="ligature" lform="solid"/>
                             <tie startid="#n1u30sw5" endid="#n1q4gcdk"/>
                         </measure>
                         <measure n="43">
@@ -949,7 +933,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n1672nvj" endid="#n4juwpu"/>
-                            <bracketSpan startid="#n12v2h10" endid="#n1c8rub7" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="45">
                             <staff n="1">
@@ -1117,8 +1100,6 @@
                                     <note xml:id="nt584b" dur="breve" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#ni5jva2" endid="#nkjsfjv" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#nt584b" endid="#nhzcfbo" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="53">
                             <staff n="1">
@@ -1159,7 +1140,6 @@
                                     <note dur="breve" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1tpt8m7" endid="#nfeuadp" func="coloration"/>
                         </measure>
                         <measure n="55">
                             <staff n="1">
@@ -1224,7 +1204,6 @@
                                     <note dur="1" oct="3" pname="e"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nttud5o" endid="#n11ebglu" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="58">
                             <staff n="1">
@@ -1286,7 +1265,6 @@
                                     <note xml:id="nbinrt" dur="breve" oct="2" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nxmjeg3" endid="#n1hrxn62" func="ligature" lform="solid"/>
                             <tie startid="#nbinrt" endid="#n1st8kn2"/>
                         </measure>
                         <measure n="61">
@@ -1347,7 +1325,6 @@
                                     <note dur="1" oct="4" pname="c"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n134dvzi" endid="#nerfsv" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="64">
                             <staff n="1">
@@ -1390,7 +1367,6 @@
                                     <note xml:id="nl2r3ri" dur="breve" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nl2r3ri" endid="#n1lqe997" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="66">
                             <staff n="1">
@@ -1430,8 +1406,6 @@
                                     <note xml:id="n1lqe997" dur="breve" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1p43ork" endid="#n1l6vrmj" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#nfzafg8" endid="#n1fhfsge" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="68">
                             <staff n="1">
@@ -1453,9 +1427,7 @@
                                     <note dur="1" oct="2" pname="b"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nmcgtcc" endid="#n1bxzraw" func="ligature" lform="solid"/>
                             <tie startid="#n1ox9dra" endid="#nmmgx4a"/>
-                            <bracketSpan startid="#n8m25kg" endid="#niz0tmj" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="69">
                             <staff n="1">
@@ -1497,9 +1469,6 @@
                                     <note xml:id="n10ywb37" dur="1" oct="3" pname="e"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nx177ym" endid="#nw42zmo" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#ntfi8t8" endid="#n1k80cod" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n5r9u9x" endid="#n10ywb37" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="71">
                             <staff n="1">
@@ -1520,7 +1489,6 @@
                                     <note dur="2" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n10k57" endid="#n1mvnvfu" func="ligature" lform="solid"/>
                             <tie startid="#n1j9lfwb" endid="#n1dqg39v"/>
                         </measure>
                         <measure n="72">
@@ -1562,7 +1530,6 @@
                                     <note dur="1" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n524aq0" endid="#nll8e77" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="74">
                             <staff n="1">
@@ -1652,9 +1619,7 @@
                                     <note xml:id="n3sym6q" dur="1" oct="3" pname="f"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n10qyhy1" endid="#n1jmg76m" func="coloration"/>
                             <tie startid="#n10qyhy1" endid="#nv035y4"/>
-                            <bracketSpan startid="#n1f6f93c" endid="#n3sym6q" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="78">
                             <staff n="1">
@@ -1677,7 +1642,6 @@
                                     <note xml:id="n17ptr0q" dur="1" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n4ikx80" endid="#nyhspdr" func="ligature" lform="solid"/>
                             <tie startid="#n17ptr0q" endid="#n1dpw7qb"/>
                         </measure>
                         <measure n="79">
@@ -1700,7 +1664,6 @@
                                     <note xml:id="n65jd52" dur="1" oct="3" pname="c"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1o0mznr" endid="#n183txap" func="ligature" lform="solid"/>
                             <tie startid="#nseymr6" endid="#n183txap"/>
                             <tie startid="#n1utq236" endid="#n26m783"/>
                             <tie startid="#n65jd52" endid="#n6u2yn2"/>
@@ -1804,7 +1767,6 @@
                                     <note xml:id="n1y9kkci" dur="breve" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1y9kkci" endid="#n1co7btz" func="ligature" lform="solid"/>
                             <tie startid="#n1y9kkci" endid="#nqyfrb0"/>
                         </measure>
                         <measure n="85">
@@ -1865,8 +1827,6 @@
                                     <note xml:id="n1j1mg0v" dur="2" oct="3" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n19zx1x3" endid="#n4rmbfy" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n1l4fbs4" endid="#n1j1mg0v" func="coloration"/>
                         </measure>
                         <measure n="88">
                             <staff n="1">
@@ -1887,8 +1847,6 @@
                                     <note dur="1" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1ryfg5a" endid="#nz1ma6c" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n6luyqm" endid="#n17q5f5o" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="89">
                             <staff n="1">
@@ -2031,9 +1989,7 @@
                                     <note dur="1" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n11fdkab" endid="#n1lv2sx7" func="ligature" lform="solid"/>
                             <tie startid="#nomni09" endid="#nk2swzi"/>
-                            <bracketSpan startid="#n1efa77q" endid="#n20ext0" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="96">
                             <staff n="1">
@@ -2073,8 +2029,6 @@
                                     <note xml:id="nud3sgq" dur="1" oct="3" pname="f"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#ntren5p" endid="#nokvjkx" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n1ctwo9i" endid="#nud3sgq" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="98">
                             <staff n="1">
@@ -2096,9 +2050,6 @@
                                     <note dur="1" oct="3" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#ns1ou71" endid="#nm83t0w" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n5pgnws" endid="#n1rnjogg" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n4gfwvu" endid="#n17xghfd" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="99">
                             <staff n="1">
@@ -2210,7 +2161,6 @@
                                     <note xml:id="n1roduhq" dur="1" oct="4" pname="c"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nbl2ekf" endid="#n1roduhq" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="105">
                             <staff n="1">
@@ -2312,7 +2262,6 @@
                                     <note dur="breve" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nog2wwr" endid="#n1oia15u" func="coloration"/>
                         </measure>
                         <measure n="110">
                             <staff n="1">
@@ -2400,8 +2349,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n23zeco" endid="#nxs1oe9"/>
-                            <bracketSpan startid="#nssdm5d" endid="#n1w8f0a0" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#njocatn" endid="#n1wxjfos" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="114">
                             <staff n="1">
@@ -2443,7 +2390,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#nfvjv4b" endid="#n142thck"/>
-                            <bracketSpan startid="#n1igv319" endid="#nmvqwhi" func="coloration"/>
                         </measure>
                         <measure n="116">
                             <staff n="1">
@@ -2464,7 +2410,6 @@
                                     <note xml:id="nmvqwhi" dur="2" oct="3" pname="c"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1hki4or" endid="#n1blt32e" func="ligature" lform="solid"/>
                             <tie startid="#n1y4s50h" endid="#n1blt32e"/>
                         </measure>
                         <measure n="117">
@@ -2504,7 +2449,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n1bwt3qr" endid="#n1q4hkf2"/>
-                            <bracketSpan startid="#n1r5dwz0" endid="#n1taxoc8" func="ligature" lform="solid"/>
                             <tie startid="#n1r5dwz0" endid="#n1x6qpps"/>
                         </measure>
                         <measure n="119">
@@ -2590,9 +2534,7 @@
                                     <note xml:id="n6iqb4a" dur="1" oct="3" pname="f"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n7mb8ec" endid="#nuidk9f" func="ligature" lform="solid"/>
                             <tie startid="#nm7trq2" endid="#nv3yzfc"/>
-                            <bracketSpan startid="#nyoexa0" endid="#n6iqb4a" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="123">
                             <staff n="1">
@@ -2614,7 +2556,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n15r5ln3" endid="#n165u76r"/>
-                            <bracketSpan startid="#n19i0h3x" endid="#n1ylxw2w" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="124">
                             <staff n="1">
@@ -2654,7 +2595,6 @@
                                     <note dur="2" oct="3" pname="b"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1dhf6i5" endid="#nq7j2wf" func="coloration"/>
                         </measure>
                         <measure n="126">
                             <staff n="1">
@@ -2676,8 +2616,6 @@
                                     <note dur="1" oct="3" pname="f"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1i87mgp" endid="#n1a0q0px" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n1acbgyy" endid="#ng7nbem" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="127">
                             <staff n="1">
@@ -2699,7 +2637,6 @@
                                     <note xml:id="n1imnfrn" dur="1" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1i3540v" endid="#nzsmen5" func="ligature" lform="solid"/>
                             <tie startid="#nytevck" endid="#nzsmen5"/>
                             <tie startid="#n1imnfrn" endid="#n9ptcf7"/>
                         </measure>
@@ -2764,7 +2701,6 @@
                                     <note dur="breve" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nsjz06u" endid="#n1wa8w6q" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="131">
                             <staff n="1">
@@ -2786,7 +2722,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#nvcara1" endid="#n2d5maa"/>
-                            <bracketSpan startid="#n8zu07s" endid="#n36ksvw" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="132">
                             <staff n="1">
@@ -2827,8 +2762,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n15ewrc8" endid="#no9nqqj"/>
-                            <bracketSpan startid="#nwv9kl5" endid="#n93hrt8" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#nyaqjkf" endid="#nz398i2" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="134">
                             <staff n="1">
@@ -2851,7 +2784,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n1luivjr" endid="#nbf856k"/>
-                            <bracketSpan startid="#n1tmirzt" endid="#n1vr4y0y" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="135">
                             <staff n="1">
@@ -2891,8 +2823,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n1x93a7i" endid="#nr2jmfa"/>
-                            <bracketSpan startid="#n1itbf7e" endid="#nhwlajf" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n16b5ro2" endid="#nphw6gc" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="137">
                             <staff n="1">
@@ -2911,7 +2841,6 @@
                                     <note xml:id="nphw6gc" dur="breve" oct="3" pname="f"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n5ncp5k" endid="#nl6yee4" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="138">
                             <staff n="1">
@@ -2949,7 +2878,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#nyh6ttw" endid="#nc8f54u"/>
-                            <bracketSpan startid="#n1iuiu22" endid="#nkj367u" func="coloration"/>
                             <tie startid="#n9zrdkr" endid="#n136qnkb"/>
                         </measure>
                         <measure n="140">

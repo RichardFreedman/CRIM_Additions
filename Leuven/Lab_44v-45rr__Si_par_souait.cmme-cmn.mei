@@ -15,15 +15,15 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef>
+                    <scoreDef meter.count="3" meter.unit="2">
                         <staffGrp symbol="bracket">
-                            <staffDef n="1" lines="5" meter.count="3" meter.unit="2" clef.shape="G" clef.line="2" label="Superius">
+                            <staffDef n="1" lines="5" clef.shape="G" clef.line="2" label="Superius">
                                 <label>Superius</label>
                             </staffDef>
-                            <staffDef n="2" lines="5" meter.count="3" meter.unit="2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Tenor">
+                            <staffDef n="2" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" label="Tenor">
                                 <label>Tenor</label>
                             </staffDef>
-                            <staffDef n="3" lines="5" meter.count="3" meter.unit="2" clef.shape="F" clef.line="4" label="Contra">
+                            <staffDef n="3" lines="5" clef.shape="F" clef.line="4" label="Contra">
                                 <label>Contra</label>
                             </staffDef>
                         </staffGrp>
@@ -33,7 +33,10 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n1y2ffay" dots="1" dur="1" oct="3" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">Si</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -46,9 +49,7 @@
                                     <note xml:id="nah2c74" dots="1" dur="1" oct="2" pname="a"/>
                                 </layer>
                             </staff>
-                            <dir type="mscore-staff-text" place="above" staff="1" tstamp="0">C|</dir>
                             <tie startid="#n1y2ffay" endid="#n1chjoke"/>
-                            <dir type="mscore-staff-text" place="above" staff="2" tstamp="0">C|</dir>
                             <tie startid="#nb2iw8u" endid="#nw06yez"/>
                             <tie startid="#nah2c74" endid="#nie76w3"/>
                         </measure>
@@ -57,7 +58,10 @@
                                 <layer n="1">
                                     <note xml:id="n1chjoke" dur="2" oct="3" pname="a"/>
                                     <note xml:id="nared0p" dur="1" oct="4" pname="c">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">par</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -77,7 +81,10 @@
                                 <layer n="1">
                                     <note dur="1" oct="3" pname="b"/>
                                     <note xml:id="nom7tav" dur="2" oct="4" pname="c">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="i">sou</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -94,7 +101,6 @@
                             </staff>
                             <tie startid="#nom7tav" endid="#nney3gw"/>
                             <tie startid="#ns0gj73" endid="#n143tst2"/>
-                            <bracketSpan startid="#n1jj3c5h" endid="#n1yi8axm" func="ligature" lform="solid"/>
                             <tie startid="#n1jj3c5h" endid="#nj4pt4d"/>
                         </measure>
                         <measure n="4">
@@ -123,7 +129,10 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n19hk5tz" dots="1" dur="1" oct="4" pname="e">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">ait</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -139,14 +148,16 @@
                             </staff>
                             <tie startid="#n19hk5tz" endid="#ndsry77"/>
                             <tie startid="#n14671tf" endid="#njrii74"/>
-                            <bracketSpan startid="#n1yi8axm" endid="#nhgby3s" func="coloration"/>
                         </measure>
                         <measure n="6">
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="ndsry77" dur="2" oct="4" pname="e"/>
                                     <note xml:id="nzxr62o" dur="1" oct="4" pname="f">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">ce</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -160,13 +171,15 @@
                                     <note xml:id="ncmf34o" dur="1" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#ncmf34o" endid="#n1fm6my" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="7">
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n1d63ivp" dots="1" dur="1" oct="4" pname="e">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="i">po</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -190,7 +203,10 @@
                                 <layer n="1">
                                     <note xml:id="n1i88ll7" dur="2" oct="4" pname="e"/>
                                     <note xml:id="nxq62gp" dur="1" oct="4" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">voit</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -205,7 +221,6 @@
                                     <note xml:id="n1k37lj0" dots="1" dur="1" oct="2" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nxq62gp" endid="#n1n6fd37" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="9">
                             <staff n="1">
@@ -254,7 +269,10 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="nrntuzt" dots="1" dur="1" oct="4" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="i">fai</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -270,7 +288,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#nrntuzt" endid="#n1dcfowl"/>
-                            <bracketSpan startid="#n1rtqhjm" endid="#n8vvbg6" func="ligature" lform="solid"/>
                             <tie startid="#n1rtqhjm" endid="#nqqzd6d"/>
                             <tie startid="#n89wjz1" endid="#nitu4xw"/>
                         </measure>
@@ -298,7 +315,10 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n1mwwpoi" dots="1" dur="1" oct="4" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">re</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -341,9 +361,15 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n1d646jo" dur="1" oct="4" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">Que</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="nx3gfk2" dur="2" oct="4" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">vous</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -366,7 +392,10 @@
                                 <layer n="1">
                                     <note xml:id="niedik2" dur="2" oct="4" pname="a"/>
                                     <note xml:id="ntgfb3m" dur="1" oct="4" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="i">puis</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -385,7 +414,10 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n1ktf6p6" dots="1" dur="1" oct="5" pname="c">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">se</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -399,7 +431,6 @@
                                     <note xml:id="n1st9xzs" dots="1" dur="1" oct="2" pname="f"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1ktf6p6" endid="#n15epw5i" func="coloration"/>
                             <tie startid="#n1ytsbh6" endid="#nbsgiwt"/>
                             <tie startid="#n1st9xzs" endid="#n1fm6my"/>
                         </measure>
@@ -409,7 +440,10 @@
                                     <note dur="4" oct="4" pname="b"/>
                                     <note xml:id="n15epw5i" dur="4" oct="4" pname="a"/>
                                     <note xml:id="n1hd3v4v" dur="1" oct="4" pname="g">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="i">sou</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -425,7 +459,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#n1hd3v4v" endid="#nzeub72"/>
-                            <bracketSpan startid="#n1qb5s49" endid="#nxys68z" func="coloration"/>
                             <tie startid="#n1qb5s49" endid="#noglm9j"/>
                         </measure>
                         <measure n="19">
@@ -451,9 +484,7 @@
                                 </layer>
                             </staff>
                             <tie startid="#n6s6gb8" endid="#n5drlgt"/>
-                            <bracketSpan startid="#n7f0bqd" endid="#n1qa2nbu" func="ligature" lform="solid"/>
                             <tie startid="#n7f0bqd" endid="#n1um3jsl"/>
-                            <bracketSpan startid="#njnl7lg" endid="#n1e62si" func="ligature" lform="solid"/>
                             <tie startid="#n1bhp9rq" endid="#nqrslfr"/>
                         </measure>
                         <measure n="20">
@@ -461,7 +492,10 @@
                                 <layer n="1">
                                     <note xml:id="n5drlgt" dur="2" oct="4" pname="b"/>
                                     <note xml:id="njgcy1x" dur="1" oct="5" pname="c">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">vant</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -478,7 +512,6 @@
                             </staff>
                             <tie startid="#njgcy1x" endid="#n1aujtr"/>
                             <tie startid="#n1k085td" endid="#n1qa2nbu"/>
-                            <bracketSpan startid="#ne1p4e7" endid="#n17zvdrt" func="coloration"/>
                             <tie startid="#ne1p4e7" endid="#n1e62si"/>
                         </measure>
                         <measure n="21">
@@ -504,7 +537,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#ni4oadi" endid="#nmx6tz9"/>
-                            <bracketSpan startid="#n1hhzzpw" endid="#n149ql8s" func="ligature" lform="solid"/>
                             <tie startid="#n1hhzzpw" endid="#n1rbk3s8"/>
                             <tie startid="#nuhzjn8" endid="#nbd92h2"/>
                         </measure>
@@ -528,7 +560,6 @@
                                     <note dur="2" oct="3" pname="c"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1it5zuj" endid="#n184hrnd" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="23">
                             <staff n="1">
@@ -553,7 +584,10 @@
                                 <layer n="1">
                                     <note dur="2" oct="4" pname="e"/>
                                     <note xml:id="n1dvnryz" dur="1" oct="4" pname="e">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="i">a</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -631,10 +665,8 @@
                                     <note xml:id="n1bl0i7p" dur="2" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1pyxyz7" endid="#n1t20o14" func="ligature" lform="solid"/>
                             <tie startid="#n1pyxyz7" endid="#ncafk61"/>
                             <tie startid="#n4gvm1q" endid="#n65g97v"/>
-                            <bracketSpan startid="#n1bl0i7p" endid="#n53p3e8" func="ligature" lform="solid"/>
                             <tie startid="#n1bl0i7p" endid="#nimdzyn"/>
                         </measure>
                         <measure n="28">
@@ -656,7 +688,6 @@
                                     <note xml:id="n53p3e8" dur="1" oct="3" pname="c"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n5tgvow" endid="#n6z2awh" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="29">
                             <staff n="1">
@@ -677,11 +708,8 @@
                                     <note xml:id="nv38wpo" dur="2" oct="2" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nl9k5ke" endid="#nwbcwof" func="ligature" lform="solid"/>
                             <tie startid="#nrnwa2m" endid="#nwbcwof"/>
-                            <bracketSpan startid="#nr2tfkk" endid="#n1a7nhvs" func="coloration"/>
                             <tie startid="#nr2tfkk" endid="#n6z2awh"/>
-                            <bracketSpan startid="#nr7l547" endid="#nrn3paz" func="ligature" lform="solid"/>
                             <tie startid="#nv38wpo" endid="#nrn3paz"/>
                         </measure>
                         <measure n="30">
@@ -725,7 +753,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#nw927m8" endid="#n1vf7p3h"/>
-                            <bracketSpan startid="#nvh6rqg" endid="#nlolhgg" func="ligature" lform="solid"/>
                             <tie startid="#nckekhl" endid="#n1o9823y"/>
                         </measure>
                         <measure n="32">
@@ -754,7 +781,10 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="ng7qa3" dots="1" dur="1" oct="3" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">voir</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -836,7 +866,10 @@
                                 <layer n="1">
                                     <rest dur="1"/>
                                     <note xml:id="n55fqb7" dur="2" oct="4" pname="c">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">Je</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -876,9 +909,15 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n1ktzq79" dur="1" oct="4" pname="c">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">vous</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="n19rqihv" dur="2" oct="4" pname="c">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="i">af</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -900,7 +939,10 @@
                                 <layer n="1">
                                     <note xml:id="nb6y925" dur="2" oct="4" pname="c"/>
                                     <note xml:id="n1jflmx9" dur="1" oct="4" pname="c">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="m">fi</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -919,7 +961,10 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n1bl2j8y" dots="1" dur="1" oct="4" pname="d">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">e</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -934,7 +979,6 @@
                                     <note dur="2" oct="3" pname="b"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n2bluol" endid="#n1o9aft8" func="ligature" lform="solid"/>
                             <tie startid="#n1lmjuok" endid="#n1o9aft8"/>
                         </measure>
                         <measure n="42">
@@ -964,7 +1008,10 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n86xbtx" dots="1" dur="1" oct="3" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">tout</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -980,9 +1027,6 @@
                                     <note xml:id="n2sw54z" dur="2" oct="3" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n86xbtx" endid="#naxex46" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#nyrggiw" endid="#nylvj3e" func="ligature" lform="solid"/>
-                            <bracketSpan startid="#n2sw54z" endid="#n1h5nr7m" func="ligature" lform="solid"/>
                             <tie startid="#n2sw54z" endid="#n7hjzjf"/>
                         </measure>
                         <measure n="44">
@@ -1047,15 +1091,16 @@
                                     <note dur="4" oct="3" pname="g"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1d90xy2" endid="#nuqf2cy" func="ligature" lform="solid"/>
                             <tie startid="#n1d90xy2" endid="#n1owkwax"/>
-                            <bracketSpan startid="#necqlv7" endid="#n1fcp9jv" func="coloration"/>
                         </measure>
                         <measure n="47">
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n1rccbh1" dots="1" dur="1" oct="3" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">pour</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -1073,7 +1118,6 @@
                             </staff>
                             <tie startid="#n1rccbh1" endid="#ni5uy7h"/>
                             <tie startid="#nrta3a7" endid="#nuqf2cy"/>
-                            <bracketSpan startid="#nvn9mws" endid="#nk6wk57" func="ligature" lform="solid"/>
                             <tie startid="#nvn9mws" endid="#nrc9wbx"/>
                         </measure>
                         <measure n="48">
@@ -1093,7 +1137,6 @@
                                     <note xml:id="nrc9wbx" dots="1" dur="1" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n103r4ni" endid="#n1dpioqe" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="49">
                             <staff n="1">
@@ -1113,9 +1156,7 @@
                                     <note xml:id="n6dg1p" dots="1" dur="1" oct="2" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nqcue3o" endid="#n2hgnk" func="coloration"/>
                             <tie startid="#nqcue3o" endid="#n1dpioqe"/>
-                            <bracketSpan startid="#n48xvfa" endid="#nhmixf1" func="ligature" lform="solid"/>
                             <tie startid="#n1prcayx" endid="#nhmixf1"/>
                             <tie startid="#n6dg1p" endid="#ntu0a95"/>
                         </measure>
@@ -1145,7 +1186,10 @@
                                 <layer n="1">
                                     <note dur="1" oct="4" pname="d"/>
                                     <note xml:id="n1y4oeml" dur="2" oct="4" pname="c">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">voir</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -1160,11 +1204,8 @@
                                     <note xml:id="nqh3a7w" dur="2" oct="3" pname="g"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1y4oeml" endid="#n19z4x2d" func="ligature" lform="solid"/>
                             <tie startid="#n1y4oeml" endid="#n19wl1bz"/>
-                            <bracketSpan startid="#nm6sfqr" endid="#ni2dgeg" func="ligature" lform="solid"/>
                             <tie startid="#nmt0wij" endid="#nck46um"/>
-                            <bracketSpan startid="#nqh3a7w" endid="#n1ug385i" func="ligature" lform="solid"/>
                             <tie startid="#nqh3a7w" endid="#nekru4m"/>
                         </measure>
                         <measure n="52">
@@ -1187,7 +1228,6 @@
                                 </layer>
                             </staff>
                             <tie startid="#nn08ho" endid="#n19z4x2d"/>
-                            <bracketSpan startid="#n1pxli0k" endid="#n1645hgv" func="coloration"/>
                             <tie startid="#n1pxli0k" endid="#ni2dgeg"/>
                             <tie startid="#n1naxwqu" endid="#n1ug385i"/>
                         </measure>
@@ -1329,7 +1369,10 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n11ukasl" dots="1" dur="1" oct="4" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="i">Chac</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -1346,7 +1389,6 @@
                             </staff>
                             <tie startid="#n11ukasl" endid="#n1hktlk3"/>
                             <tie startid="#nra34vv" endid="#nm294r7"/>
-                            <bracketSpan startid="#noiqlez" endid="#n1ci9way" func="ligature" lform="solid"/>
                             <tie startid="#noiqlez" endid="#n1np3fy7"/>
                         </measure>
                         <measure n="60">
@@ -1354,7 +1396,10 @@
                                 <layer n="1">
                                     <note xml:id="n1hktlk3" dur="2" oct="4" pname="a"/>
                                     <note xml:id="n6nzt3m" dur="1" oct="4" pname="d">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">que</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -1374,7 +1419,10 @@
                                 <layer n="1">
                                     <note xml:id="nwm7xwf" dur="1" oct="4" pname="d"/>
                                     <note xml:id="n1gf0q9b" dur="2" oct="4" pname="g">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">jour</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -1416,7 +1464,10 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="nr5pboq" dots="1" dur="1" oct="4" pname="e">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="i">se</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -1442,7 +1493,10 @@
                                 <layer n="1">
                                     <note xml:id="n1jbti70" dur="2" oct="4" pname="e"/>
                                     <note xml:id="n1tztir4" dur="1" oct="4" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">roit</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -1479,9 +1533,7 @@
                                     <note xml:id="n1why2v0" dur="2" oct="4" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1si24zz" endid="#n1a0in7" func="ligature" lform="solid"/>
                             <tie startid="#nhdkz6e" endid="#n1a0in7"/>
-                            <bracketSpan startid="#n1why2v0" endid="#nwyqpjh" func="coloration"/>
                             <tie startid="#n1why2v0" endid="#n1wg0tpp"/>
                         </measure>
                         <measure n="66">
@@ -1510,7 +1562,10 @@
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n3d6a5l" dots="1" dur="1" oct="4" pname="f">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">a</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -1525,7 +1580,6 @@
                                     <note xml:id="nf3mtt2" dur="2" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nqnzzdi" endid="#n1q6j4cn" func="ligature" lform="solid"/>
                             <tie startid="#nf3mtt2" endid="#n1q6j4cn"/>
                         </measure>
                         <measure n="68">
@@ -1534,7 +1588,10 @@
                                     <note dur="4" oct="4" pname="e"/>
                                     <note dur="4" oct="4" pname="d"/>
                                     <note xml:id="n1au709i" dur="1" oct="4" pname="e">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="i">re</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -1554,14 +1611,16 @@
                                     <note dur="1" oct="2" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1au709i" endid="#n1tcvi1w" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="69">
                             <staff n="1">
                                 <layer n="1">
                                     <note xml:id="n1tcvi1w" dur="1" oct="4" pname="d"/>
                                     <note xml:id="nb8yvb0" dur="2" oct="4" pname="a">
-                              </note>
+                                        <verse n="1">
+                                            <syl con="d" wordpos="m">fai</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
@@ -1576,9 +1635,7 @@
                                 </layer>
                             </staff>
                             <tie startid="#nb8yvb0" endid="#n1mp7hm7"/>
-                            <bracketSpan startid="#n1w70xy0" endid="#n1kdg3kf" func="ligature" lform="solid"/>
                             <tie startid="#n1w70xy0" endid="#nco0x5c"/>
-                            <bracketSpan startid="#n19fgpn8" endid="#n1va3sax" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="70">
                             <staff n="1">
@@ -1623,7 +1680,6 @@
                             </staff>
                             <tie startid="#nx67wqm" endid="#ncq2ymy"/>
                             <tie startid="#n5txepd" endid="#n13uw5fs"/>
-                            <bracketSpan startid="#n1juxj4s" endid="#n1js8ol7" func="coloration"/>
                             <tie startid="#n1oyp6m2" endid="#n12fmhg0"/>
                         </measure>
                         <measure n="72">
@@ -1695,7 +1751,6 @@
                                     <note dur="2" oct="2" pname="b"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n148lg7a" endid="#nr4jacx" func="ligature" lform="solid"/>
                         </measure>
                         <measure n="75">
                             <staff n="1">
@@ -1717,10 +1772,8 @@
                                     <note xml:id="njfb1hm" dur="2" oct="3" pname="d"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#nqacfar" endid="#ntg9qe9" func="ligature" lform="solid"/>
                             <tie startid="#nqacfar" endid="#n1c5jm80"/>
                             <tie startid="#n16omi6b" endid="#n17pgsqz"/>
-                            <bracketSpan startid="#njfb1hm" endid="#n1p0i1wb" func="ligature" lform="solid"/>
                             <tie startid="#njfb1hm" endid="#n15n2p7c"/>
                         </measure>
                         <measure n="76">
@@ -1787,7 +1840,6 @@
                                     <note xml:id="ntqd1l3" dur="1" oct="2" pname="a"/>
                                 </layer>
                             </staff>
-                            <bracketSpan startid="#n1bo4k57" endid="#n4jiv0z" func="ligature" lform="solid"/>
                             <tie startid="#n1bo4k57" endid="#nwc0s1x"/>
                             <tie startid="#ntqd1l3" endid="#n2uov9z"/>
                         </measure>
@@ -1798,7 +1850,10 @@
                                         <accid accid="s" func="edit"/>
                                     </note>
                                     <note xml:id="ny9aa7w" dur="2" oct="4" pname="d">
-                              </note>
+                                        <verse n="1">
+                                            <syl wordpos="t">re</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff n="2">
